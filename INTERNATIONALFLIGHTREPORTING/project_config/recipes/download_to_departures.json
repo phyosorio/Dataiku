@@ -1,0 +1,56 @@
+{
+  "type": "download",
+  "neverRecomputeExistingPartitions": false,
+  "optionalDependencies": false,
+  "params": {
+    "deleteExtraFiles": true,
+    "copyEvenUpToDateFiles": false,
+    "sources": [
+      {
+        "useGlobalProxy": true,
+        "providerType": "URL",
+        "params": {
+          "path": "https://data.transportation.gov/api/views/innc-gbgc/rows.csv?accessType\u003dDOWNLOAD",
+          "consider404AsEmpty": true,
+          "fallbackHeadToGet": true,
+          "trustAnySSLCertificate": false
+        }
+      }
+    ]
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "redispatchPartitioning": false,
+  "maxRunningActivities": 0,
+  "inputs": {},
+  "outputs": {
+    "main": {
+      "items": [
+        {
+          "ref": "hmLCv9ZI",
+          "appendMode": false
+        }
+      ]
+    }
+  },
+  "versionTag": {
+    "versionNumber": 1,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1607035363650
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1607035336340
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

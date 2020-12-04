@@ -1,0 +1,428 @@
+{
+  "preFilter": {
+    "distinct": false,
+    "enabled": false
+  },
+  "ntileValues": "10",
+  "keys": [],
+  "values": [
+    {
+      "last": false,
+      "lagDiff": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "Year",
+      "count": false,
+      "$idx": 0,
+      "lagValues": "1",
+      "sum": false,
+      "concat": false,
+      "type": "bigint",
+      "lead": false,
+      "concatDistinct": false,
+      "dateDiffUnit": "DAY",
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "lag": false,
+      "leadValues": "1",
+      "$selected": false,
+      "stddev": false,
+      "value": true,
+      "leadDiff": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "lagDiff": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "Month",
+      "count": false,
+      "$idx": 1,
+      "lagValues": "1",
+      "sum": false,
+      "concat": false,
+      "type": "bigint",
+      "lead": false,
+      "concatDistinct": false,
+      "dateDiffUnit": "DAY",
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "lag": false,
+      "leadValues": "1",
+      "$selected": false,
+      "stddev": false,
+      "value": true,
+      "leadDiff": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "lagDiff": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "Scheduled_total",
+      "count": false,
+      "$idx": 2,
+      "lagValues": "1",
+      "sum": false,
+      "concat": false,
+      "type": "bigint",
+      "lead": false,
+      "concatDistinct": false,
+      "dateDiffUnit": "DAY",
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "lag": false,
+      "leadValues": "1",
+      "$selected": false,
+      "stddev": false,
+      "value": true,
+      "leadDiff": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "lagDiff": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "Scheduled_IN_mktshare",
+      "count": false,
+      "$idx": 3,
+      "lagValues": "1",
+      "sum": false,
+      "concat": false,
+      "type": "double",
+      "lead": false,
+      "concatDistinct": false,
+      "dateDiffUnit": "DAY",
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "lag": false,
+      "leadValues": "1",
+      "$selected": false,
+      "stddev": false,
+      "value": true,
+      "leadDiff": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "lagDiff": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "Scheduled_US_mktshare",
+      "count": false,
+      "$idx": 4,
+      "lagValues": "1",
+      "sum": false,
+      "concat": false,
+      "type": "double",
+      "lead": false,
+      "concatDistinct": false,
+      "dateDiffUnit": "DAY",
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "lag": false,
+      "leadValues": "1",
+      "$selected": false,
+      "stddev": false,
+      "value": true,
+      "leadDiff": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "lagDiff": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "Charter_total",
+      "count": false,
+      "$idx": 5,
+      "lagValues": "1",
+      "sum": false,
+      "concat": false,
+      "type": "bigint",
+      "lead": false,
+      "concatDistinct": false,
+      "dateDiffUnit": "DAY",
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "lag": false,
+      "leadValues": "1",
+      "$selected": false,
+      "stddev": false,
+      "value": true,
+      "leadDiff": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "lagDiff": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "Charter_IN_mktshare",
+      "count": false,
+      "$idx": 6,
+      "lagValues": "1",
+      "sum": false,
+      "concat": false,
+      "type": "double",
+      "lead": false,
+      "concatDistinct": false,
+      "dateDiffUnit": "DAY",
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "lag": false,
+      "leadValues": "1",
+      "$selected": false,
+      "stddev": false,
+      "value": true,
+      "leadDiff": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "lagDiff": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "Charter_US_mktshare",
+      "count": false,
+      "$idx": 7,
+      "lagValues": "1",
+      "sum": false,
+      "concat": false,
+      "type": "double",
+      "lead": false,
+      "concatDistinct": false,
+      "dateDiffUnit": "DAY",
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "lag": false,
+      "leadValues": "1",
+      "$selected": false,
+      "stddev": false,
+      "value": true,
+      "leadDiff": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "lagDiff": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "Total",
+      "count": false,
+      "$idx": 8,
+      "lagValues": "12",
+      "sum": false,
+      "concat": false,
+      "type": "bigint",
+      "lead": false,
+      "concatDistinct": false,
+      "dateDiffUnit": "DAY",
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "lag": true,
+      "leadValues": "1",
+      "$selected": false,
+      "stddev": false,
+      "value": true,
+      "leadDiff": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "lagDiff": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "Total_IN_mktshare",
+      "count": false,
+      "$idx": 9,
+      "lagValues": "12",
+      "sum": false,
+      "concat": false,
+      "type": "double",
+      "lead": false,
+      "concatDistinct": false,
+      "dateDiffUnit": "DAY",
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "lag": true,
+      "leadValues": "1",
+      "$selected": false,
+      "stddev": false,
+      "value": true,
+      "leadDiff": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "lagDiff": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "Total_US_mktshare",
+      "count": false,
+      "$idx": 10,
+      "lagValues": "12",
+      "sum": false,
+      "concat": false,
+      "type": "double",
+      "lead": false,
+      "concatDistinct": false,
+      "dateDiffUnit": "DAY",
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "lag": true,
+      "leadValues": "1",
+      "$selected": false,
+      "stddev": false,
+      "value": true,
+      "leadDiff": false,
+      "first": false
+    }
+  ],
+  "legacyUnboundedWindowStreamBehavior": false,
+  "windows": [
+    {
+      "windowUpperBound": 0,
+      "enablePartitioning": false,
+      "enableOrdering": true,
+      "precedingRows": 0,
+      "limitFollowing": false,
+      "orders": [
+        {
+          "column": "Year",
+          "desc": false
+        },
+        {
+          "column": "Month",
+          "desc": false
+        }
+      ],
+      "limitPreceding": false,
+      "followingRows": 0,
+      "windowLowerBound": 0,
+      "enableLimits": false
+    }
+  ],
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "Year",
+            "type": "bigint"
+          },
+          {
+            "name": "Month",
+            "type": "bigint"
+          },
+          {
+            "name": "Scheduled_total",
+            "type": "bigint"
+          },
+          {
+            "name": "Scheduled_IN_mktshare",
+            "type": "double"
+          },
+          {
+            "name": "Scheduled_US_mktshare",
+            "type": "double"
+          },
+          {
+            "name": "Charter_total",
+            "type": "bigint"
+          },
+          {
+            "name": "Charter_IN_mktshare",
+            "type": "double"
+          },
+          {
+            "name": "Charter_US_mktshare",
+            "type": "double"
+          },
+          {
+            "name": "Total",
+            "type": "bigint"
+          },
+          {
+            "name": "Total_IN_mktshare",
+            "type": "double"
+          },
+          {
+            "name": "Total_US_mktshare",
+            "type": "double"
+          },
+          {
+            "name": "Total_lag12",
+            "type": "bigint"
+          },
+          {
+            "name": "Total_IN_mktshare_lag12",
+            "type": "double"
+          },
+          {
+            "name": "Total_US_mktshare_lag12",
+            "type": "double"
+          }
+        ],
+        "userModified": false
+      }
+    },
+    "distinct": false,
+    "enabled": false
+  },
+  "cumeDist": false,
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "inheritConf": "default",
+      "addDkuUdf": false,
+      "executionEngine": "HIVESERVER2"
+    },
+    "sqlPipelineParams": {
+      "pipelineAllowMerge": true,
+      "pipelineAllowStart": true
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "skipPrerunValidate": false,
+      "pipelineAllowMerge": true,
+      "useGlobalMetastore": false,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "mode": "AUTO",
+        "autoModeRepartitionInto": 10,
+        "map": {}
+      },
+      "overwriteOutputSchema": false,
+      "executionEngine": "SPARK_SUBMIT",
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      }
+    }
+  },
+  "ntile": false,
+  "rank": false,
+  "denseRank": false,
+  "rowNumber": false,
+  "outputColumnNameOverrides": {}
+}

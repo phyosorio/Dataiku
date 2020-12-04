@@ -1,0 +1,29 @@
+{
+  "uiData": {
+    "mode": "||",
+    "conditions": [
+      {
+        "input": "Year",
+        "col": "data_dte",
+        "string": "2017",
+        "num": 0,
+        "operator": "\u003d\u003d [string]"
+      },
+      {
+        "input": "Year",
+        "col": "Year",
+        "string": "2016",
+        "num": 0,
+        "operator": "\u003d\u003d [string]"
+      }
+    ]
+  },
+  "$status": {
+    "validated": false,
+    "fullyTranslated": false,
+    "ok": false,
+    "message": "Filter expression is invalid"
+  },
+  "distinct": false,
+  "enabled": true
+}
